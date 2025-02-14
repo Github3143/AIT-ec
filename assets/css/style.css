@@ -3,12 +3,12 @@
 --------------------------------------------------------------*/
 
 .nav-style{
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
 }
 
 .title{
   overflow: visible !important;
-  font-size: 2rem !important;
+  font-size: 1rem !important;
 }
 
 .section-one{
@@ -689,14 +689,14 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   width: 7.5rem;
   height: 0.063rem;
   display: inline-block;
   background: #00b4d8;
   margin: 0.25rem 0.625rem;
-}
+} user123*/
 
 .section-title p {
   margin: 0;

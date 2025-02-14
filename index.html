@@ -68,12 +68,20 @@
 
 
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center justify-content-center">
+<section id="hero" class="d-flex align-items-center justify-content-center ">
   <!-- Responsive Video Background -->
   <video autoplay muted loop id="hero-video" playsinline>
     <source src="assets/img/vid3.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+
+  <!-- College Subsection -->
+  <div class="college-banner d-flex justify-content-between align-items-center">
+    <img src="assets/img/nms_swmiji_1.png" alt="Left Logo" class="college-logo">
+    <h6 class="college-name">Jai sri Guru dev</h6>
+    <h2 class="college-name">Adichunchanagiri Institute of Technology</h2>
+    <img src="assets/img/s1.png" alt="Right Logo" class="college-logo">
+  </div>
  
   
   <!-- Content Overlay -->
@@ -94,9 +102,47 @@
 
 <!-- Add CSS for Responsiveness -->
 <style>
+/* amith */
+.college-banner {
+  
+    justify-self: center !important;
+    width: 90% !important;
+    padding: 3vh 20px;
+    z-index: 1020 !important;
+  }
+
+  .college-logo {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 130px;
+    z-index: 1030 !important;
+  }
+
+  .college-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    z-index: 1030 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+
+  @media (max-width: 768px) {
+    .college-logo {
+      height: 40px;
+    }
+    .college-name {
+      font-size: 16px;
+    }
+  }
+/* user123 */
+
+
+
   /* Ensure the video covers the entire hero section */
   #hero {
+    
     position: relative;
+    display: block !important; /* user123 */
     height: 100vh; /* Full viewport height */
     overflow: hidden;
   }
@@ -170,7 +216,7 @@
           <h2>About Us</h2>
           <p>About the Trust</p>
         </div>
-        <p class="fst-italic">
+        <p class="">
           Sri Adichunchanagiri Shikshana Trust (SAST) was established in 1974. In its journey of commitments to the nation for more than five decades, SAST runs 515 value-based and quality-oriented educational institutions catering to 150,000+ students across the country, imparting education from primary to professional courses. The Trust focuses on providing education in semi-urban and rural areas, operating major institutions in the fields of Medicine, Engineering, Pharmacy, Ayurveda, Management, and other professional courses, including special education centers for destitute, physically handicapped (blind), and mentally challenged individuals.
         </p>
       </div>
@@ -185,7 +231,7 @@
 <section id="about-institute" class="about">
   <div class="container" data-aos="fade-up">
     <div class="row">
-      <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+      <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100" >
         <img src="assets/img/image.png" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 order-2 order-lg-2 content" data-aos="fade-left" data-aos-delay="100">
@@ -193,10 +239,10 @@
           
           <p>About the Institute</p>
         </div>
-        <p class="fst-italic">
+        <p class="" style="text-align: justify;">
           Adichunchanagiri Institute of Technology (AIT), situated in Chikkamagaluru, Karnataka, is a prestigious engineering college established in 1980. Affiliated with Visvesvaraya Technological University (VTU), Belagavi, and approved by AICTE, AIT holds accreditation from NBA and NAAC with an “A” grade.
         </p>
-        <p class="fst-italic">
+        <p class="" style="text-align: justify;">
           AIT offers undergraduate, postgraduate, and research programs across various engineering and technology disciplines. With well-equipped laboratories, modern infrastructure, and highly qualified faculty, the institute promotes research and innovation. Students are encouraged to engage in projects, technical competitions, and industry collaborations. AIT has active student chapters of IEEE, ISTE, and IEI, ensuring technical and professional growth. The institute’s strong industry connections offer excellent placement opportunities. Co-curricular and extracurricular activities help in holistic student development.
         </p>
       </div>
@@ -208,20 +254,19 @@
 <section id="about-department" class="about">
   <div class="container" data-aos="fade-up">
     <div class="row">
-      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100" style="text-align: justify;">
         <div class="section-title">
-          
           <p>About the Department</p>
         </div>
-        <p class="fst-italic">
+        <p class="">
           The Electronics and Communication Engineering department, established in 1981, has been affiliated with Visvesvaraya Technological University (VTU), Belagavi, Karnataka, since 1998. Recognized by AICTE and accredited twice by the National Board of Accreditation (NBA), the department offers UG, PG, and research programs, fostering student growth with a strong societal impact.
         </p>
-        <p class="fst-italic">
+        <p class="">
           The department boasts experienced faculty specializing in VLSI, embedded systems, digital communication, microwave and antenna technology, DSP, image processing, computer networks, nano-electronics, and MEMS. Well-equipped laboratories support research and projects with advanced software tools like Matlab, Tanner, LabVIEW, HFSS, Multisim, and Vivado, along with Spectrum and Logic Analyzers.
         </p>
       </div>
       <div class="col-lg-6 order-2 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-        <img src="assets/img/ece.jpg" class="img-fluid" alt="">
+        <img src="assets/img/ece.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
       </div>
     </div>
   </div>
@@ -246,28 +291,28 @@
           <h2 class="text-primary">About Us</h2>
           <p class="font-weight-bold text-dark">About the Conference</p>
         </div>
-        <p class="fst-italic text-muted">
+        <p class=" text-muted" style="text-align: justify;">
           The <strong>International Conference on Emerging Research in Smart Electronics, Communication Technologies, Informatics, and Machine Intelligence</strong> 
           serves as a premier platform for <strong>researchers, academicians, industry professionals, and students</strong> to present and discuss the latest advancements, 
           innovations, and challenges in these rapidly evolving domains.
         </p>
-        <p class="fst-italic text-muted">
+        <p class="fst-italic text-muted" style="text-align: justify;">
           This conference aims to foster collaboration and knowledge exchange, focusing on cutting-edge topics such as:
         </p>
 
         <!-- Stylish List -->
-        <ul class="list-unstyled text-left d-inline-block">
+        <ul class="list-unstyled text-left d-inline-block" style="text-align: justify;">
           <li><i class="bi bi-check-circle text-primary"></i> <strong>Smart electronics</strong> and embedded systems.</li>
           <li><i class="bi bi-check-circle text-primary"></i> Emerging communication technologies, including <strong>IoT and 5G/6G</strong>.</li>
           <li><i class="bi bi-check-circle text-primary"></i> Advanced informatics for <strong>data-driven solutions</strong>.</li>
           <li><i class="bi bi-check-circle text-primary"></i> Breakthroughs in <strong>machine intelligence</strong> and AI applications.</li>
         </ul>
 
-        <p class="fst-italic text-muted">
+        <p class="fst-italic text-muted" style="text-align: justify;">
           <strong>ECMI-2025</strong> welcomes contributions in the form of <strong>original research papers, innovative prototypes, and industrial case studies</strong>. 
           By bringing together experts from academia and industry, the conference aims to <strong>inspire groundbreaking research</strong> and foster new partnerships.
         </p>
-        <p class="fst-italic text-muted">
+        <p class="fst-italic text-muted" style="text-align: justify;">
           Participants will have the opportunity to explore <strong>emerging trends, engage in interdisciplinary discussions</strong>, and contribute to 
           shaping the future of <span class="text-primary">technology and innovation</span>.
         </p>
@@ -304,17 +349,17 @@
     <div id="card-area">
       <div class="wrapper">
         <div class="cards-wrapper">
-          <div class="card" onclick="showPopup('smart-electronics')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
-            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Smart Electronics</h3>
+          <div class="card" onclick="showPopup('smart-electronics')" style="width: 18rem; height:20vh; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 2vw; transform: perspective(500px) rotateX(20deg);">Smart Electronics</h3>
           </div>
-          <div class="card" onclick="showPopup('communication-tech')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
-            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Communication Technologies</h3>
+          <div class="card" onclick="showPopup('communication-tech')" style="width: 18rem; height:20vh;background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 2vw; transform: perspective(500px) rotateX(20deg);">Communication Technologies</h3>
           </div>
-          <div class="card" onclick="showPopup('informatics')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
-            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Informatics</h3>
+          <div class="card" onclick="showPopup('informatics')" style="width: 18rem; height:20vh; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 2vw; transform: perspective(500px) rotateX(20deg);">Informatics</h3>
           </div>
-          <div class="card" onclick="showPopup('machine-intelligence')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
-            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Machine Intelligence</h3>
+          <div class="card" onclick="showPopup('machine-intelligence')" style="width: 18rem; height:20vh; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 2vw; transform: perspective(500px) rotateX(20deg);">Machine Intelligence</h3>
           </div>
         </div>
       </div>
@@ -388,7 +433,7 @@
 <script>
   function showPopup(track) {
     const details = {
-      'smart-electronics': `<h3>Smart Electronics</h3><ul>
+      'smart-electronics': `<h3>Smart Electronics</h3><ul style="text-align: justify;">
         <li>Design and development of advanced embedded systems.</li>
         <li>Innovations in semiconductor devices and fabrication techniques.</li>
         <li>MEMS and NEMS: Applications and advancements.</li>
@@ -399,7 +444,7 @@
         <li>Mixed-signal IC design and testing.</li>
         <li>Hardware security and trusted computing.</li>
       </ul>`,
-      'communication-tech': `<h3>Communication Technologies</h3><ul>
+      'communication-tech': `<h3>Communication Technologies</h3><ul style="text-align: justify;">
         <li>5G/6G networks: Design, deployment, and challenges.</li>
         <li>IoT communication protocols and architectures.</li>
         <li>MIMO and massive MIMO systems.</li>
@@ -410,7 +455,7 @@
         <li>Quantum communication technologies.</li>
         <li>Edge and fog computing for communication networks.</li>
       </ul>`,
-      'informatics': `<h3>Informatics</h3><ul>
+      'informatics': `<h3>Informatics</h3><ul style="text-align: justify;" >
         <li>Big data analytics and visualization techniques.</li>
         <li>Cloud computing: Architectures and security challenges.</li>
         <li>Blockchain technology and its applications.</li>
@@ -421,7 +466,7 @@
         <li>E-governance and smart city informatics.</li>
         <li>Green computing and sustainable information systems.</li>
       </ul>`,
-      'machine-intelligence': `<h3>Machine Intelligence</h3><ul>
+      'machine-intelligence': `<h3>Machine Intelligence</h3><ul style="text-align: justify;">
         <li>Deep learning algorithms and architectures.</li>
         <li>Explainable AI and ethical AI systems.</li>
         <li>Reinforcement learning and real-time decision-making systems.</li>
@@ -435,6 +480,7 @@
     };
     document.getElementById("popup-details").innerHTML = details[track];
     document.getElementById("popup").style.display = "flex";
+    document.getElementById("popup").style.textAlign = "justify";
   }
 
   function closePopup() {
@@ -460,7 +506,7 @@
 <section id="call-for-papers" class="about">
   <div class="container" data-aos="fade-up">
     <div class="row">
-      <div class="col-lg-12 content text-center" data-aos="fade-right" data-aos-delay="100">
+      <div class="col-lg-12 content text-center" data-aos="fade-right" data-aos-delay="100" style="text-align: justify;">
         <div class="section-title">
           <h2 style="font-size: 2rem; font-weight: 700; text-transform: uppercase; color: #151e82;">Call for Papers</h2>
         </div>
