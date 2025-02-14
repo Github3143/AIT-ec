@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>IEEE AIT</title>
+  <meta content="Website of IEEE AIT" name="description">
+  <meta content="IEEE" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Website Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Website Name:IEEE AIT
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- 2 shades of blue #0d6aed--main title & #00b4d8--navbar used in this website-->
+   <!-- #ff2b2b--old red title color -->
+   <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul class="d-flex align-items-center ms-auto">
+        
+          
+            <ul>
+              <li><a class="nav-link scrollto nav-style" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#CFP">CFP</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#Committee">Committee</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#Date">Important Date</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#Speakers">Speakers</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#Sponsers">Sponsers</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#Registration">Registration</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#contact">Contact</a></li>
+            </ul>
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+  
+    </div>
+  </header><!-- End Header -->
+ 
+
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center justify-content-center">
+  <!-- Responsive Video Background -->
+  <video autoplay muted loop id="hero-video" playsinline>
+    <source src="assets/img/vid3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+ 
+  
+  <!-- Content Overlay -->
+  <div class="container content-overlay" data-aos="fade-up">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+      <div class="col-xxl-9 col-lg-9 col-md-10 col-sm-12 text-center ">
+        <!-- Responsive Heading -->
+       
+        <h1 class="responsive-heading">
+          Welcome to <br>
+          <br>
+          <span class="title"><p class="highlight">INTERNATIONAL CONFERENCE ON EMERGING RESEARCH IN SMART ELECTRONICS, COMMUNICATION TECHNOLOGIES, INFORMATICS AND MACHINE INTELLIGENCE ECMI-2025</p></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add CSS for Responsiveness -->
+<style>
+  /* Ensure the video covers the entire hero section */
+  #hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+  }
+
+  #hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  /* Responsive Heading */
+  .responsive-heading {
+    font-size: 90px; /* Default size for large screens */
+    color: white; /* Ensure text is visible over the video */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Improve readability */
+    line-height: 1.2; /* Improve line spacing */
+  }
+
+  .responsive-heading .typewriter {
+    display: inline-block; /* Ensure the typewriter effect works properly */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+
+  .responsive-heading .highlight {
+    color: #ffcc00; /* Highlight color for "ECMI 2025 - 26" */
+  }
+
+  /* Adjust font size for smaller screens */
+  @media (max-width: 1200px) {
+    .responsive-heading {
+      font-size: 70px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .responsive-heading {
+      font-size: 50px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .responsive-heading {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .responsive-heading {
+      font-size: 24px; /* Smaller font size for mobile */
+    }
+    .responsive-heading .typewriter {
+      font-size: 20px; /* Even smaller for "IEEE ECMI 2025 - 26" */
+      white-space: nowrap; /* Force text to stay in one line */
+    }
+  }
+</style>
+
+
+
+    <!-- ======= About Trust Section ======= -->
+<section id="about-trust" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>About the Trust</p>
+        </div>
+        <p class="fst-italic">
+          Sri Adichunchanagiri Shikshana Trust (SAST) was established in 1974. In its journey of commitments to the nation for more than five decades, SAST runs 515 value-based and quality-oriented educational institutions catering to 150,000+ students across the country, imparting education from primary to professional courses. The Trust focuses on providing education in semi-urban and rural areas, operating major institutions in the fields of Medicine, Engineering, Pharmacy, Ayurveda, Management, and other professional courses, including special education centers for destitute, physically handicapped (blind), and mentally challenged individuals.
+        </p>
+      </div>
+      <div class="col-lg-6 order-2 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+        <img src="assets/img/dr.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section><!-- End About Trust Section -->
+
+<!-- ======= About Institute Section ======= -->
+<section id="about-institute" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+        <img src="assets/img/image.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-2 content" data-aos="fade-left" data-aos-delay="100">
+        <div class="section-title">
+          
+          <p>About the Institute</p>
+        </div>
+        <p class="fst-italic">
+          Adichunchanagiri Institute of Technology (AIT), situated in Chikkamagaluru, Karnataka, is a prestigious engineering college established in 1980. Affiliated with Visvesvaraya Technological University (VTU), Belagavi, and approved by AICTE, AIT holds accreditation from NBA and NAAC with an “A” grade.
+        </p>
+        <p class="fst-italic">
+          AIT offers undergraduate, postgraduate, and research programs across various engineering and technology disciplines. With well-equipped laboratories, modern infrastructure, and highly qualified faculty, the institute promotes research and innovation. Students are encouraged to engage in projects, technical competitions, and industry collaborations. AIT has active student chapters of IEEE, ISTE, and IEI, ensuring technical and professional growth. The institute’s strong industry connections offer excellent placement opportunities. Co-curricular and extracurricular activities help in holistic student development.
+        </p>
+      </div>
+    </div>
+  </div>
+</section><!-- End About Institute Section -->
+
+<!-- ======= About Department Section ======= -->
+<section id="about-department" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+        <div class="section-title">
+          
+          <p>About the Department</p>
+        </div>
+        <p class="fst-italic">
+          The Electronics and Communication Engineering department, established in 1981, has been affiliated with Visvesvaraya Technological University (VTU), Belagavi, Karnataka, since 1998. Recognized by AICTE and accredited twice by the National Board of Accreditation (NBA), the department offers UG, PG, and research programs, fostering student growth with a strong societal impact.
+        </p>
+        <p class="fst-italic">
+          The department boasts experienced faculty specializing in VLSI, embedded systems, digital communication, microwave and antenna technology, DSP, image processing, computer networks, nano-electronics, and MEMS. Well-equipped laboratories support research and projects with advanced software tools like Matlab, Tanner, LabVIEW, HFSS, Multisim, and Vivado, along with Spectrum and Logic Analyzers.
+        </p>
+      </div>
+      <div class="col-lg-6 order-2 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+        <img src="assets/img/ece.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section><!-- End About Department Section -->
+
+
+
+<!-- ======= About Conference Section ======= -->
+<section id="about-conference" class="about py-5" 
+         style="background: url('assets/img/image.png') no-repeat center center/cover; position: relative;">
+
+  <!-- Overlay to Improve Readability -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+
+  <div class="container position-relative" data-aos="fade-up">
+    
+    <!-- Content Section -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10 content text-center bg-white p-4 rounded shadow content-box" 
+           data-aos="fade-up" data-aos-delay="200">
+        <div class="section-title">
+          <h2 class="text-primary">About Us</h2>
+          <p class="font-weight-bold text-dark">About the Conference</p>
+        </div>
+        <p class="fst-italic text-muted">
+          The <strong>International Conference on Emerging Research in Smart Electronics, Communication Technologies, Informatics, and Machine Intelligence</strong> 
+          serves as a premier platform for <strong>researchers, academicians, industry professionals, and students</strong> to present and discuss the latest advancements, 
+          innovations, and challenges in these rapidly evolving domains.
+        </p>
+        <p class="fst-italic text-muted">
+          This conference aims to foster collaboration and knowledge exchange, focusing on cutting-edge topics such as:
+        </p>
+
+        <!-- Stylish List -->
+        <ul class="list-unstyled text-left d-inline-block">
+          <li><i class="bi bi-check-circle text-primary"></i> <strong>Smart electronics</strong> and embedded systems.</li>
+          <li><i class="bi bi-check-circle text-primary"></i> Emerging communication technologies, including <strong>IoT and 5G/6G</strong>.</li>
+          <li><i class="bi bi-check-circle text-primary"></i> Advanced informatics for <strong>data-driven solutions</strong>.</li>
+          <li><i class="bi bi-check-circle text-primary"></i> Breakthroughs in <strong>machine intelligence</strong> and AI applications.</li>
+        </ul>
+
+        <p class="fst-italic text-muted">
+          <strong>ECMI-2025</strong> welcomes contributions in the form of <strong>original research papers, innovative prototypes, and industrial case studies</strong>. 
+          By bringing together experts from academia and industry, the conference aims to <strong>inspire groundbreaking research</strong> and foster new partnerships.
+        </p>
+        <p class="fst-italic text-muted">
+          Participants will have the opportunity to explore <strong>emerging trends, engage in interdisciplinary discussions</strong>, and contribute to 
+          shaping the future of <span class="text-primary">technology and innovation</span>.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Conference Section -->
+
+<style>
+  /* Hover Effect */
+  .content-box {
+    transition: 0.3s ease-in-out;
+    border-left: 5px solid #007bff;
+  }
+
+  .content-box:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+</style>
+
+
+    
+
+    <!-- ======= Events Section ======= -->
+
+<section id="tracks" class="tracks" style="padding: 60px 0; background: #f8f9fa;">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2 style="font-size: 36px; color: #343a40; font-weight: 700;">Technical Tracks</h2>
+      <p style="font-size: 20px; color: #6c757d;">Explore the Tracks for IEEE 2025</p>
+    </div>
+    <div id="card-area">
+      <div class="wrapper">
+        <div class="cards-wrapper">
+          <div class="card" onclick="showPopup('smart-electronics')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Smart Electronics</h3>
+          </div>
+          <div class="card" onclick="showPopup('communication-tech')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Communication Technologies</h3>
+          </div>
+          <div class="card" onclick="showPopup('informatics')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Informatics</h3>
+          </div>
+          <div class="card" onclick="showPopup('machine-intelligence')" style="width: 18rem; background: linear-gradient(145deg, #f0f0f0, #d0d0d0); box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); border-radius: 15px; overflow: hidden; font-family: 'Roboto', sans-serif; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; transition: transform 0.3s, box-shadow 0.3s;">
+            <h3 class="card-title" style="font-size: 28px; transform: perspective(500px) rotateX(20deg);">Machine Intelligence</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popup Structure -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <div id="popup-details"></div>
+  </div>
+</div>
+
+<style>
+  .cards-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .card {
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #02203d;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  function showPopup(track) {
+    const details = {
+      'smart-electronics': `<h3>Smart Electronics</h3><ul>
+        <li>Design and development of advanced embedded systems.</li>
+        <li>Innovations in semiconductor devices and fabrication techniques.</li>
+        <li>MEMS and NEMS: Applications and advancements.</li>
+        <li>Flexible and wearable electronics.</li>
+        <li>Power electronics for renewable energy and electric vehicles.</li>
+        <li>Sensor technologies for IoT and smart applications.</li>
+        <li>Low-power and energy-efficient electronics.</li>
+        <li>Mixed-signal IC design and testing.</li>
+        <li>Hardware security and trusted computing.</li>
+      </ul>`,
+      'communication-tech': `<h3>Communication Technologies</h3><ul>
+        <li>5G/6G networks: Design, deployment, and challenges.</li>
+        <li>IoT communication protocols and architectures.</li>
+        <li>MIMO and massive MIMO systems.</li>
+        <li>Visible light and free-space optical communication.</li>
+        <li>Software-defined networking (SDN) and network virtualization.</li>
+        <li>Cognitive and cooperative communication systems.</li>
+        <li>Satellite and wireless communication advancements.</li>
+        <li>Quantum communication technologies.</li>
+        <li>Edge and fog computing for communication networks.</li>
+      </ul>`,
+      'informatics': `<h3>Informatics</h3><ul>
+        <li>Big data analytics and visualization techniques.</li>
+        <li>Cloud computing: Architectures and security challenges.</li>
+        <li>Blockchain technology and its applications.</li>
+        <li>Data mining and knowledge discovery in various domains.</li>
+        <li>Human-computer interaction and user experience design.</li>
+        <li>Geographic Information Systems (GIS) and spatial informatics.</li>
+        <li>Cybersecurity and information assurance.</li>
+        <li>E-governance and smart city informatics.</li>
+        <li>Green computing and sustainable information systems.</li>
+      </ul>`,
+      'machine-intelligence': `<h3>Machine Intelligence</h3><ul>
+        <li>Deep learning algorithms and architectures.</li>
+        <li>Explainable AI and ethical AI systems.</li>
+        <li>Reinforcement learning and real-time decision-making systems.</li>
+        <li>AI for natural language processing and computer vision.</li>
+        <li>Autonomous systems and robotics.</li>
+        <li>AI-driven predictive maintenance in industrial systems.</li>
+        <li>Hybrid AI models for complex problem-solving.</li>
+        <li>AI in healthcare: Diagnosis, drug discovery, and personalized medicine.</li>
+        <li>Federated learning and distributed AI models.</li>
+      </ul>`
+    };
+    document.getElementById("popup-details").innerHTML = details[track];
+    document.getElementById("popup").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    const popup = document.getElementById("popup");
+    if (event.target === popup) {
+      closePopup();
+    }
+  };
+</script>
+
+<!-- End Events Section -->
+
+
+<!-- call for paper and dates  -->
+
+
+
+
+<section id="call-for-papers" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-12 content text-center" data-aos="fade-right" data-aos-delay="100">
+        <div class="section-title">
+          <h2 style="font-size: 2rem; font-weight: 700; text-transform: uppercase; color: #151e82;">Call for Papers</h2>
+        </div>
+        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 500;">
+          ECMI-2025 invites the submission of original, high-quality research papers that have not been previously published.
+        </p>
+        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 500;">
+          All accepted and presented papers will be submitted to <b>IEEE</b> for potential inclusion in the <b>Xplore Digital Library</b>.
+        </p>
+        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 600; color: red;">
+          ⚠ ECMI-2025 takes plagiarism very seriously and considers it a professional misconduct.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- call for paper and dates end  -->
+
+
+
+<!-- ======= Important Dates Section ======= -->
+<section id="important-dates" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center">
+      <h2 style="font-size: 2rem; font-weight: 700; color: #151e82; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+        📅 Important Dates
+      </h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="table-responsive">
+          <table class="table table-bordered text-center" style="font-size: 1rem; font-weight: 500; border: 2px solid #241384;">
+            <thead style="background-color: #241384; color: white; font-size: 1.1rem;">
+              <tr>
+                <th>Event</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody style="color: #333; background-color: #fff; font-size: 1rem;">
+              <tr>
+                <td><strong>📌 Call for Papers</strong></td>
+                <td style="color: #151e82;"><strong>15<sup>th</sup> June 2025</strong></td>
+              </tr>
+              <tr>
+                <td><strong>📌 Full Length Paper Submission</strong></td>
+                <td style="color: #151e82;"><strong>30<sup>th</sup> August 2025</strong></td>
+              </tr>
+              <tr>
+                <td><strong>📌 Acceptance Notification</strong></td>
+                <td style="color: #151e82;"><strong>15<sup>th</sup> September 2025</strong></td>
+              </tr>
+              <tr>
+                <td><strong>📌 Final Paper Submission</strong></td>
+                <td style="color: #151e82;"><strong>25<sup>th</sup> October 2025</strong></td>
+              </tr>
+              <tr>
+                <td><strong>📌 Last Date for Registration</strong></td>
+                <td style="color: #151e82;"><strong>30<sup>th</sup> October 2025</strong></td>
+              </tr>
+              <tr>
+                <td><strong>📌 Conference Date</strong></td>
+                <td style="color: #151e82;"><strong>6<sup>th</sup> and 7<sup>th</sup> November 2025</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Important Dates Section -->
+
+
+<!-- ======= Payment Details Section ======= -->
+<section id="payment-details" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title text-center">
+      <h2 style="font-size: 2rem; font-weight: 700; color: #151e82; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+        💳 Payment Details
+      </h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="table-responsive">
+          <table class="table table-bordered text-center" style="font-size: 1rem; font-weight: 500; border: 2px solid #241384;">
+            <thead style="background-color: #241384; color: white; font-size: 1.1rem;">
+              <tr>
+                <th>Region</th>
+                <th>Category</th>
+                <th>Non-IEEE Member</th>
+                <th>IEEE Member</th>
+              </tr>
+            </thead>
+            <tbody style="color: #333; background-color: #fff; font-size: 1rem;">
+              <!-- Indian Payment Details -->
+              <tr>
+                <td rowspan="3"><strong>🇮🇳 Indian</strong></td>
+                <td><strong>UG/PG Students/ Research Scholars</strong></td>
+                <td style="color: #151e82;"><strong>6500 INR</strong></td>
+                <td style="color: #151e82;"><strong>5200 INR</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Academician</strong></td>
+                <td style="color: #151e82;"><strong>7000 INR</strong></td>
+                <td style="color: #151e82;"><strong>5600 INR</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Industry Persons</strong></td>
+                <td style="color: #151e82;"><strong>8200 INR</strong></td>
+                <td style="color: #151e82;"><strong>7000 INR</strong></td>
+              </tr>
+              <!-- Foreign Payment Details -->
+              <tr>
+                <td rowspan="3"><strong>🌍 Foreign</strong></td>
+                <td><strong>UG/PG Students/ Research Scholars</strong></td>
+                <td style="color: #151e82;"><strong>85 USD</strong></td>
+                <td style="color: #151e82;"><strong>75 USD</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Academician</strong></td>
+                <td style="color: #151e82;"><strong>90 USD</strong></td>
+                <td style="color: #151e82;"><strong>80 USD</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Industry Persons</strong></td>
+                <td style="color: #151e82;"><strong>100 USD</strong></td>
+                <td style="color: #151e82;"><strong>90 USD</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Payment Details Section -->
+
+
+
+
+<!-- commitee-->
+
+<style>
+  .committee-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      gap: 20px; /* Space between cards */
+  }
+  .advisor {
+      background: #ffffff;
+      padding: 15px;
+      border-left: 5px solid #007BFF;
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .advisor:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .advisor h3 {
+      margin: 0;
+      color: #007BFF;
+  }
+  .advisor p {
+      margin: 5px 0 0;
+      color: #555;
+  }
+  @media (max-width: 768px) {
+      .committee-container {
+          grid-template-columns: 1fr; /* Single column on smaller screens */
+      }
+  }
+</style>
+
+
+<section class="container" id="committee">
+<div class="section-title">
+  <h2>Committee</h2>
+  <p>Organizing Members</p>
+</div>
+<div class="committee-container">
+  <div class="advisor">
+    <h3>Chief Patron</h3>
+    <p><strong>Sri Sri Sri Dr. Nirmalanandanatha Maha Swamiji</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Patron</h3>
+    <p><strong>Sri Gunanatha Swamiji</strong></p>
+    <p><strong>Dr. Vidya Shankar</strong></p>
+    <p><strong>Dr. C K Subbaraya</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>General Chair</h3>
+    <p><strong>Dr. C T Jayadeva</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Organizing Chair</h3>
+    <p><strong>Dr. Goutham M.A.</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Conference Chair</h3>
+    <p><strong>Dr. Suma M.</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Conference Co-Chair</h3>
+    <p><strong>Prof Madhuprakash R</strong></p>
+    <p><strong>Prof Nagaveni C.R</strong></p>
+    <p><strong>Prof RaghuKumar B S</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Steering Committee</h3>
+    <p><strong>Dr. AP Jagadeesh Chandra</strong></p>
+    <p><strong>Dr. G.T Raju</strong></p>
+    <p><strong>Prof. Sanjay Mathur</strong></p>
+    <p><strong>Dr. Surendiran</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Technical Program Committee</h3>
+    <p><strong>Dr. Kumada T</strong></p>
+    <p><strong>Dr. H R Vani</strong></p>
+    <p><strong>Dr. Harish M S</strong></p>
+    <p><strong>Dr. Usha K P</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Publication Chair</h3>
+    <p><strong>Dr. Anil Kumar C</strong></p>
+    <p><strong>Prof Mahesh D S</strong></p>
+    <p><strong>Prof Divya G S</strong></p>
+    <p><strong>Prof Manjukla U R</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Publicity Chair</h3>
+    <p><strong>Prof Harish Kumar C R</strong></p>
+    <p><strong>Prof Chandrakala</strong></p>
+    <p><strong>Prof Megha Shree M</strong></p>
+    <p><strong>Prof Girish S</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Web Management Committee</h3>
+    <p><strong>Prof Rajappa H S</strong></p>
+    <p><strong>Prof. Linet D’Souza</strong></p>
+  </div>
+  <div class="advisor">
+    <h3>Finance Chair Committee</h3>
+    <p><strong>Prof Anitha K T</strong></p>
+    <p><strong>Prof Tasmia Namreen</strong></p>
+  </div>
+    <div class="advisor">
+      <h3>International Advisory Committee</h3>
+      <p><strong>Prof. Francesco Flammini</strong> - Professor, Department of Computer Science, IDSIA USI-SUPSI, University of Applied Sciences and Arts of Southern Switzerland, Manno 6928, Switzerland</p>
+      <p><strong>Prof. Dr. Fadi Al-Turjman</strong> - Research Center for AI and IoT, AI and Robotics Institute, Near East University, Turkey</p>
+      <p><strong>Dr. Hong Li</strong> - University of Houston-Downtown</p>
+      <p><strong>Dr. Chawki Djeddi</strong> - Larbi Tebessi University, Algeria</p>
+      <p><strong>Dr. George Ghinea</strong> - Professor of Computer Science, Brunel University, London</p>
+    </div>
+    <div class="advisor">
+      <h3>National Advisory Committee</h3>
+      <p><strong>Dr. Sivasankar Elango</strong> - Associate Professor, Department of Computer Science & Engineering, National Institute of Technology, Tiruchirappalli, Tamilnadu</p>
+      <p><strong>Dr. Ananth Prabhu</strong> - Professor & Principal Investigator, Digital Forensics and Cyber Security Center of Excellence, Sahyadri College of Engineering & Management</p>
+      <p><strong>Dr. C.M Prashanth</strong> - Principal, MITE, Mangalore</p>
+      <p><strong>Dr. Shobha B.N</strong> - Principal, BGSIT</p>
+      <p><strong>Dr. Ravikumar G.K</strong> - Principal, BGSCET, Bengaluru</p>
+      <p><strong>Dr. T.G Basavaraju</strong> - Professor, Govt Engg College, Hassan</p>
+      <p><strong>Dr. Karunakara Rai</strong> - NMIT, Bengaluru</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- commitee end-->
+
+
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Collaboration is key to the success of any project, and my team works seamlessly together to achieve our goals. Each member brings their unique skills and perspectives to the table, and together, we are greater than the sum of our parts.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  As a mentor, it's incredibly rewarding to watch my team members grow and develop professionally. I strive to create an environment that fosters creativity, curiosity, and a passion for learning.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I firmly believe that the success of our team is a direct result of the supportive culture we have built. We encourage each other to take risks, learn from our mistakes, and never stop pushing ourselves to be better.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    
+
+
+<br>
+
+    <section id="sponsors" class="py-5 bg-light">
+      <div class="container text-center">
+        <div class="section-title">
+          <h2 style="font-size: 2rem; font-weight: 700; color: #151e82; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+            Technical sponsor
+          </h2>
+        </div>
+
+          <div class="row justify-content-center">
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/ieeeeeeeee.webp" class="img-fluid sponsor-logo" alt="IEEE Bangalore Section">
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/nuov.jpg" class="img-fluid sponsor-logo" alt="Nuvodev Bangalore">
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/log.jpg" class="img-fluid sponsor-logo" alt="Loginware Solution Pvt Ltd">
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/cap.jpg" class="img-fluid sponsor-logo" alt="Capulus Technologies">
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/bluepage.png" class="img-fluid sponsor-logo" alt="Blue Page Technologies">
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/hers.png" class="img-fluid sponsor-logo" alt="Heraizen Technologies">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+
+
+<!-- ======= Footer ======= -->
+<footer id="contact" class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact Information -->
+        <div class="col-lg-4 col-md-6 footer-info">
+          <h4>ECMI-2025</h4>
+          <p>
+            Adichunchanagiri Institute of Technology (AIT)<br>
+            Chikkamagaluru, Karnataka, India<br>
+            <strong>Phone:</strong> +91 7795361426 (Prof. Madhuprakash)<br>
+            <strong>Phone:</strong> +91 8073552210 (Prof. Nagaveni C R)<br>
+            <strong>Phone:</strong> +91 9035903549 (Prof. Rajappa H S)<br>
+            <strong>Phone:</strong> +91 9448554971 (Dr. Goutham M A)<br>
+            <strong>Email:</strong> ecmi2025@aitckm.in<br>
+            <strong>Web:</strong> <a href="http://aitecmi.com" target="_blank">aitecmi.com</a>
+          </p>
+          <div class="social-links">
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Stay updated with the latest news and events of ECMI-2025.</p>
+          <form action="" method="post">
+            <input type="email" name="email" placeholder="Enter your email" class="form-control">
+            <button type="submit" class="btn btn-primary mt-2">Subscribe</button>
+          </form>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="col-lg-4 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ECMI-2025</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Developed by <a href="#">ECMI-2025 Web Management Committee</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Website Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
