@@ -49,12 +49,11 @@
           
             <ul>
               <li><a class="nav-link scrollto nav-style" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#CFP">CFP</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#Committee">Committee</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#Date">Important Date</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#Speakers">Speakers</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#Sponsers">Sponsers</a></li>
-              <li><a class="nav-link scrollto nav-style" href="#Registration">Registration</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#about-trust">About Us</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#about-conference">Conference</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#call-for-papers">Important Date</a></li>
+              <li><a class="nav-link scrollto nav-style" href="#committee">Committee</a></li>
+          
               <li><a class="nav-link scrollto nav-style" href="#contact">Contact</a></li>
             </ul>
          
@@ -70,34 +69,49 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center ">
   <!-- Responsive Video Background -->
-  <video autoplay muted loop id="hero-video" playsinline>
+  <!-- <video autoplay muted loop id="hero-video" playsinline style="">
     <source src="assets/img/vid3.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>
+  </video> -->
+
+  <img src="assets/img/95188.jpg"  id="hero-img"/>
 
   <!-- College Subsection -->
   <div class="college-banner d-flex justify-content-between align-items-center">
     <img src="assets/img/nms_swmiji_1.png" alt="Left Logo" class="college-logo">
-    <h6 class="college-name">Jai sri Guru dev</h6>
-    <h2 class="college-name">Adichunchanagiri Institute of Technology</h2>
+    <span class="colege-span">
+    <h6 class="college-name">|| Jai Sri Guru Dev ||<br>
+    Adichunchanagiri Shikshana Trust (R)</h6>
+    <h2 class="main-title">Adichunchanagiri Institute of Technology</h2>
+    <h2 class="college-name ">
+      (Affiliated to VTU Belagavi, Recognized by AICTE New Delhi, 
+      accredited by NAAC with "A" Grade)<br>
+      Jyothi Nagara, Chikkamagaluru-577102, Karnataka, India.
+    </h2>
+  </span>
     <img src="assets/img/s1.png" alt="Right Logo" class="college-logo">
   </div>
- 
-  
-  <!-- Content Overlay -->
-  <div class="container content-overlay" data-aos="fade-up">
-    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-      <div class="col-xxl-9 col-lg-9 col-md-10 col-sm-12 text-center ">
-        <!-- Responsive Heading -->
-       
-        <h1 class="responsive-heading">
-          Welcome to <br>
-          <br>
-          <span class="title"><p class="highlight">INTERNATIONAL CONFERENCE ON EMERGING RESEARCH IN SMART ELECTRONICS, COMMUNICATION TECHNOLOGIES, INFORMATICS AND MACHINE INTELLIGENCE ECMI-2025</p></span>
-        </h1>
-      </div>
-    </div>
+
+  <div class="college-logo-div d-flex">
+    <div  class="bgcolor d-flex ">
+    <img src="assets/img/LOGO1-FULL1.png" alt="Left Logo" class="college-logo-rectangle">
+    <img src="assets/img/WhatsApp Image 2025-02-18 at 9.48.17 AM-Photoroom.png" alt="Right Logo" class="college-logo-rectangle">
+    <img src="assets/img/WhatsApp Image 2025-02-14 at 10.43.16 PM (1)-Photoroom.png" alt="Right Logo" class="college-logo-rectangle">
   </div>
+  </div>
+ 
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; height: 100vh; text-align: center; font-family: Arial, sans-serif; position: relative; z-index: 10;">
+    <h1 style="font-size: 2.5rem; margin-bottom: 1rem; color: #ffffff;">Welcome to ECMI-2025</h1>
+    <p style="font-size:1rem; line-height: 1.5; font-weight: bold; color: #d6d8da;">
+      INTERNATIONAL CONFERENCE ON ADVANCEMENTS IN SMART ELECTRONICS,<br>
+      COMMUNICATION TECHNOLOGIES, INFORMATICS, AND MACHINE INTELLIGENCE<br>
+  
+    </p>
+    <p style="font-size: 1.2rem; margin-top: 1rem; color: #ffffff;">
+      Hosted by the Department of Electronics and Communication Engineering
+    </p>
+  </div>
+  
 </section>
 
 <!-- Add CSS for Responsiveness -->
@@ -108,19 +122,57 @@
     justify-self: center !important;
     width: 90% !important;
     padding: 3vh 20px;
-    z-index: 1020 !important;
+    z-index: 1030 !important;
+    
   }
-
+  .colege-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1020 !important;
+    
+  }
   .college-logo {
     border-radius: 50%;
     object-fit: cover;
+    height: 170px;
+    z-index: 1030 !important;
+  }
+  .college-logo-rectangle{ 
     height: 130px;
     z-index: 1030 !important;
   }
+  .college-logo-div{
+   
+    background-color: rgb(245, 240, 221) !important;
+    justify-self: center !important;
+    width: 90% !important;
+    padding: 1vh 20px 3vh 20px;
+    z-index: 3000 !important;
+  }
+.bgcolor{
+  /* background-color: cornsilk !important; */
+  z-index: 2090 !important; 
+  border-radius: 15px !important;
+   opacity: 80%;
+  
+   width: 100%;
+   justify-content: space-around !important;
+}
 
+  .main-title {
+    font-size: 5.5vh !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1030 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
   .college-name {
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 2.5vh !important;
+    font-weight: normal;
     color: white;
     z-index: 1030 !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -155,7 +207,17 @@
     height: 100%;
     object-fit: cover;
     transform: translate(-50%, -50%);
-    z-index: -1;
+ 
+  }
+  #hero-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+ 
   }
 
   /* Responsive Heading */
@@ -211,7 +273,7 @@
 <section id="about-trust" class="about">
   <div class="container" data-aos="fade-up">
     <div class="row">
-      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+      <div class="col-lg-6 order-1 order-lg-1 content" data-aos="fade-right" data-aos-delay="100" style="text-align: justify;">
         <div class="section-title">
           <h2>About Us</h2>
           <p>About the Trust</p>
@@ -276,10 +338,10 @@
 
 <!-- ======= About Conference Section ======= -->
 <section id="about-conference" class="about py-5" 
-         style="background: url('assets/img/image.png') no-repeat center center/cover; position: relative;">
+         style="background: url('assets/img/bg1.png') no-repeat center center/cover; position: relative;">
 
   <!-- Overlay to Improve Readability -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.592);"></div>
 
   <div class="container position-relative" data-aos="fade-up">
     
@@ -296,7 +358,7 @@
           serves as a premier platform for <strong>researchers, academicians, industry professionals, and students</strong> to present and discuss the latest advancements, 
           innovations, and challenges in these rapidly evolving domains.
         </p>
-        <p class="fst-italic text-muted" style="text-align: justify;">
+        <p class=" text-muted" style="text-align: justify;">
           This conference aims to foster collaboration and knowledge exchange, focusing on cutting-edge topics such as:
         </p>
 
@@ -308,11 +370,11 @@
           <li><i class="bi bi-check-circle text-primary"></i> Breakthroughs in <strong>machine intelligence</strong> and AI applications.</li>
         </ul>
 
-        <p class="fst-italic text-muted" style="text-align: justify;">
+        <p class=" text-muted" style="text-align: justify;">
           <strong>ECMI-2025</strong> welcomes contributions in the form of <strong>original research papers, innovative prototypes, and industrial case studies</strong>. 
           By bringing together experts from academia and industry, the conference aims to <strong>inspire groundbreaking research</strong> and foster new partnerships.
         </p>
-        <p class="fst-italic text-muted" style="text-align: justify;">
+        <p class=" text-muted" style="text-align: justify;">
           Participants will have the opportunity to explore <strong>emerging trends, engage in interdisciplinary discussions</strong>, and contribute to 
           shaping the future of <span class="text-primary">technology and innovation</span>.
         </p>
@@ -326,7 +388,7 @@
   /* Hover Effect */
   .content-box {
     transition: 0.3s ease-in-out;
-    border-left: 5px solid #007bff;
+    /* border-left: 5px solid #007bff; */
   }
 
   .content-box:hover {
@@ -344,6 +406,7 @@
   <div class="container">
     <div class="section-title text-center">
       <h2 style="font-size: 36px; color: #343a40; font-weight: 700;">Technical Tracks</h2>
+      <br>
       <p style="font-size: 20px; color: #6c757d;">Explore the Tracks for IEEE 2025</p>
     </div>
     <div id="card-area">
@@ -415,7 +478,7 @@
     background: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 15px;
-    width: 60%;
+ 
     max-width: 800px;
     text-align: center;
     position: relative;
@@ -433,7 +496,7 @@
 <script>
   function showPopup(track) {
     const details = {
-      'smart-electronics': `<h3>Smart Electronics</h3><ul style="text-align: justify;">
+      'smart-electronics': `<h3>Smart Electronics</h3><ul style="text-align: justify; ">
         <li>Design and development of advanced embedded systems.</li>
         <li>Innovations in semiconductor devices and fabrication techniques.</li>
         <li>MEMS and NEMS: Applications and advancements.</li>
@@ -444,7 +507,7 @@
         <li>Mixed-signal IC design and testing.</li>
         <li>Hardware security and trusted computing.</li>
       </ul>`,
-      'communication-tech': `<h3>Communication Technologies</h3><ul style="text-align: justify;">
+      'communication-tech': `<h3>Communication Technologies</h3><ul style="text-align: justify;" >
         <li>5G/6G networks: Design, deployment, and challenges.</li>
         <li>IoT communication protocols and architectures.</li>
         <li>MIMO and massive MIMO systems.</li>
@@ -480,7 +543,9 @@
     };
     document.getElementById("popup-details").innerHTML = details[track];
     document.getElementById("popup").style.display = "flex";
-    document.getElementById("popup").style.textAlign = "justify";
+    document.getElementById("popup-details").style.width="fit-content";
+   
+
   }
 
   function closePopup() {
@@ -510,13 +575,13 @@
         <div class="section-title">
           <h2 style="font-size: 2rem; font-weight: 700; text-transform: uppercase; color: #151e82;">Call for Papers</h2>
         </div>
-        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 500;">
+        <p class="" style="font-size: 1.4rem; font-weight: 500;">
           ECMI-2025 invites the submission of original, high-quality research papers that have not been previously published.
         </p>
-        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 500;">
+        <p class="" style="font-size: 1.4rem; font-weight: 500;">
           All accepted and presented papers will be submitted to <b>IEEE</b> for potential inclusion in the <b>Xplore Digital Library</b>.
         </p>
-        <p class="fst-italic" style="font-size: 1.4rem; font-weight: 600; color: red;">
+        <p class="" style="font-size: 1.4rem; font-weight: 600; color: red;">
           ⚠ ECMI-2025 takes plagiarism very seriously and considers it a professional misconduct.
         </p>
       </div>
@@ -553,27 +618,27 @@
             </thead>
             <tbody style="color: #333; background-color: #fff; font-size: 1rem;">
               <tr>
-                <td><strong>📌 Call for Papers</strong></td>
+                <td><strong> Call for Papers</strong></td>
                 <td style="color: #151e82;"><strong>15<sup>th</sup> June 2025</strong></td>
               </tr>
               <tr>
-                <td><strong>📌 Full Length Paper Submission</strong></td>
+                <td><strong> Full Length Paper Submission</strong></td>
                 <td style="color: #151e82;"><strong>30<sup>th</sup> August 2025</strong></td>
               </tr>
               <tr>
-                <td><strong>📌 Acceptance Notification</strong></td>
+                <td><strong> Acceptance Notification</strong></td>
                 <td style="color: #151e82;"><strong>15<sup>th</sup> September 2025</strong></td>
               </tr>
               <tr>
-                <td><strong>📌 Final Paper Submission</strong></td>
+                <td><strong> Final Paper Submission</strong></td>
                 <td style="color: #151e82;"><strong>25<sup>th</sup> October 2025</strong></td>
               </tr>
               <tr>
-                <td><strong>📌 Last Date for Registration</strong></td>
+                <td><strong> Last Date for Registration</strong></td>
                 <td style="color: #151e82;"><strong>30<sup>th</sup> October 2025</strong></td>
               </tr>
               <tr>
-                <td><strong>📌 Conference Date</strong></td>
+                <td><strong> Conference Date</strong></td>
                 <td style="color: #151e82;"><strong>6<sup>th</sup> and 7<sup>th</sup> November 2025</strong></td>
               </tr>
             </tbody>
@@ -845,27 +910,27 @@
           <h2 style="font-size: 2rem; font-weight: 700; color: #151e82; text-transform: uppercase; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
             Technical sponsor
           </h2>
+          <br>
         </div>
 
           <div class="row justify-content-center">
+            
               <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/ieeeeeeeee.webp" class="img-fluid sponsor-logo" alt="IEEE Bangalore Section">
+                  <img src="assets/img/sponsers/nuov_prev_ui (1).png" class="img-fluid sponsor-logo" alt="Nuvodev Bangalore">
               </div>
               <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/sponsers/nuov.jpg" class="img-fluid sponsor-logo" alt="Nuvodev Bangalore">
+                  <img src="assets/img/sponsers/log-Photoroom.png" class="img-fluid sponsor-logo" alt="Loginware Solution Pvt Ltd">
               </div>
               <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/sponsers/log.jpg" class="img-fluid sponsor-logo" alt="Loginware Solution Pvt Ltd">
+                <img src="assets/img/sponsers/hers-Photoroom.png" class="img-fluid sponsor-logo" alt="Heraizen Technologies">
+            </div>
+              
+              <div class="col-md-3 col-6 mb-4">
+                  <img src="assets/img/sponsers/bluepage-Photoroom.png" class="img-fluid sponsor-logo" alt="Blue Page Technologies">
               </div>
               <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/sponsers/cap.jpg" class="img-fluid sponsor-logo" alt="Capulus Technologies">
-              </div>
-              <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/sponsers/bluepage.png" class="img-fluid sponsor-logo" alt="Blue Page Technologies">
-              </div>
-              <div class="col-md-3 col-6 mb-4">
-                  <img src="assets/img/sponsers/hers.png" class="img-fluid sponsor-logo" alt="Heraizen Technologies">
-              </div>
+                <img src="assets/img/sponsers/cap.png" class="img-fluid sponsor-logo" style="width: 120px; height: auto; border-radius: 12px;" alt="Capulus Technologies">
+            </div>
           </div>
       </div>
   </section>
@@ -903,16 +968,16 @@
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Stay updated with the latest news and events of ECMI-2025.</p>
-          <form action="" method="post">
+          <form onsubmit="return false;">
             <input type="email" name="email" placeholder="Enter your email" class="form-control">
-            <button type="submit" class="btn btn-primary mt-2">Subscribe</button>
+            <button class="btn btn-primary mt-2">Subscribe</button>
           </form>
         </div>
 
         <!-- Contact Form Section -->
         <div class="col-lg-4 col-md-6 footer-contact">
           <h4>Contact Us</h4>
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form role="form" class="php-email-form" onsubmit="return false;">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -928,7 +993,7 @@
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-primary">Send Message</button>
+              <button class="btn btn-primary">Send Message</button>
             </div>
           </form>
         </div>
